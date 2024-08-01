@@ -10,19 +10,19 @@ const Header = () => {
         <Image src={logo} className="h-8 w-8" />
       </div>
       <ul className="flex space-x-3 justify-center items-center pt-2">
-        <li className="hover:bg-orange-300  px-3 py-1 rounded-md cursor-pointer">
+        <li className="hover:bg-gray-100   px-3 py-1 rounded-md">
           Home
         </li>
-        <li className="hover:bg-orange-300  px-3 py-1 rounded-md cursor-pointer">
+        <li className="hover:bg-gray-100  px-3 py-1 rounded-md">
           About
         </li>
-        <li className="hover:bg-orange-300 px-3 py-1 rounded-md cursor-pointer">
+        <li className="hover:bg-gray-100  px-3 py-1 rounded-md">
           Services
         </li>
-        <li className="hover:bg-orange-300 px-3 py-1 rounded-md cursor-pointer">
+        <li className="hover:bg-gray-100  px-3 py-1 rounded-md">
           Contact
         </li>
-        <li className="hover:bg-orange-300 px-3 py-1 rounded-md cursor-pointer">
+        <li className="hover:bg-gray-100  px-3 py-1 rounded-md">
           Terms of Service
         </li>
       </ul>
