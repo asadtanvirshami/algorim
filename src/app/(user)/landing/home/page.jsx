@@ -3,6 +3,10 @@ import React from "react";
 import Hero from "./hero";
 import Quote from "./quote";
 import Tech from "./tech";
+import { HeroParallaxDemo } from "./parallax";
+import { GlobeDemo } from "./globe";
+import { CardStackDemo } from "./cardstack";
+import { HeroScrollDemo } from "./scrollContainer";
 const Home = () => {
   return (
     <div className="relative isolate overflow-hidden w-full h-full ">
@@ -35,10 +39,44 @@ const Home = () => {
             data-aos="fade-down-right"
             className="flex flex-col items-center justify-center text-center text-black"
           >
-            <div data-aos="fade-down">
+            <div data-aos="fade-down ">
               <Hero />
               <Quote />
               <Tech />
+              <div className="grid grid-cols-2 ">
+                <div className="flex flex-row items-center justify-center  md:h-[33rem] dark:bg-black bg-white relative w-full">
+                  <div className="max-w-7xl mx-auto w-full flex flex-row items-center justify-center relative overflow-hidden md:[33rem] mt-[10rem] px-4">
+                    <div>
+                      <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+                        We provide service worldwide
+                      </h2>
+                      <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+                        We are here to provide you with the best experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <GlobeDemo />
+              </div>
+              <div className="grid grid-cols-2">
+                <CardStackDemo />
+                <div className="flex flex-row items-center justify-center md:h-[33rem] dark:bg-black bg-white relative w-full">
+                  <div className="max-w-7xl mx-auto w-full relative overflow-hidden  px-4">
+                    <div>
+                      <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
+                        Our following principles
+                      </h2>
+                      <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+                        Follow saying of the great. To become great.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <HeroScrollDemo />
+              <div className="container">
+                <HeroParallaxDemo />
+              </div>
             </div>
           </div>
         </div>

@@ -1,18 +1,20 @@
+import { FlipWords } from "@/components/ui/flip-words";
 import React from "react";
 
 const Hero = () => {
+  const words = ["better", "cute", "beautiful", "modern"];
   return (
     <div>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex"></div>
+        <div className="z-10 w-full items-center justify-between font-mono text-sm lg:flex"></div>
 
         {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-slate-200 before:dark:opacity-10 after:dark:from-slate-500 after:dark:via-[#333333] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <h1 className="text-[16rem] font-bold">ALGORIM</h1>
         </div> */}
-        <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full  after:dark:via-[#333333] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+        <div className="relative  flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full  after:dark:via-[#333333] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-            <h1 className="text-[16rem] font-bold font-brand">ALGORIM</h1>
-            <h1 className=" font-oswald text-center text-zinc-800 font-bold text-2xl md:text-5xl lg:text-4xl">
+            <h1 className="text-[4rem] lg:text-[16rem] font-bold font-brand">ALGORIM</h1>
+            <h1 className=" font-oswald text-center text-zinc-800 text-xl font-bold  md:text-5xl lg:text-4xl">
               WE BUILD
               <span className="relative whitespace-nowrap text-orange-400">
                 <svg
