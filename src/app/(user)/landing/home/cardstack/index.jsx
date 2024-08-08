@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { GlobeDemo } from "../globe";
 export function CardStackDemo() {
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-[35rem] dark:bg-black bg-white relative w-full">
+    <div className="flex flex-row items-center justify-center py-20  h-screen md:h-[35rem] bg-transparent relative w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         {/* <div>
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
@@ -28,7 +28,7 @@ export const Highlight = ({ children, className }) => {
   return (
     <span
       className={cn(
-        "font-bold bg-emerald-100 text-emerald-700 dark:bg-emerald-700/[0.2] dark:text-emerald-500 px-1 py-0.5",
+        "font-bold bg-orange-100 text-orange-700 dark:bg-orange-700/[0.2] dark:text-orange-500 px-1 py-0.5",
         className
       )}
     >
