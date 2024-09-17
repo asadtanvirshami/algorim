@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import { CardStack } from "@/components/ui/card-stack";
 import { cn } from "@/lib/utils";
