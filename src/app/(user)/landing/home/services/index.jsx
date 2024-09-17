@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import ServiceCard from "@/components/ui/service-card";
 import React from "react";
 
