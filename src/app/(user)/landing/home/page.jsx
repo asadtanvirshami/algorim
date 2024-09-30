@@ -8,6 +8,7 @@ import { GlobeDemo } from "./globe";
 import { CardStackDemo } from "./cardstack";
 import { HeroScrollDemo } from "./scrollContainer";
 import Services from "./services";
+import { TimelineDemo } from "./timeline";
 const Home = () => {
   return (
     <div className="relative isolate overflow-hidden w-full h-full ">
@@ -44,7 +45,7 @@ const Home = () => {
               <Hero />
               <Quote />
               <Tech />
-              <div className="grid grid-cols-2  bg-transparent">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  bg-transparent">
                 <div className="flex flex-row items-center justify-center  md:h-[33rem] bg-transparent relative w-full">
                   <div className="max-w-7xl mx-auto w-full flex flex-row items-center justify-center relative overflow-hidden md:[33rem] mt-[10rem] px-4">
                     <div>
@@ -59,7 +60,7 @@ const Home = () => {
                 </div>
                 <GlobeDemo />
               </div>
-              <div className="grid grid-cols-2 bg-transparent">
+              {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-transparent">
                 <CardStackDemo />
                 <div className="flex flex-row items-center justify-center md:h-[33rem] bg-transparent relative w-full">
                   <div className="max-w-7xl mx-auto w-full relative overflow-hidden  px-4">
@@ -73,8 +74,9 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <Services/>
+              </div> */}
+              {/* <Services /> */}
+              <TimelineDemo/>
               <HeroScrollDemo />
 
               <div className="container">

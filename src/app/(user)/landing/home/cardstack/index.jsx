@@ -7,7 +7,7 @@ import { GlobeDemo } from "../globe";
 export function CardStackDemo() {
   return (
     <div className="flex flex-row items-center justify-center py-20  h-screen md:h-[35rem] bg-transparent relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden  md:h-[40rem] px-4">
         {/* <div>
           <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
             Our following principles

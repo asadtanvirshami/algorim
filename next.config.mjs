@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["aceternity.com",""], // Add the domain you want to access
+    domains: ["aceternity.com", "assets.aceternity.com"], // Add both domains in a single array
   },
 };
 

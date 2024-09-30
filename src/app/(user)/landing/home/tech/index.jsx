@@ -27,7 +27,7 @@ import Image from "next/image";
 const Tech = () => {
   return (
     <div className="flex  flex-col justify-center space-x-5 space-y-5 mt-16 items-center ">
-      <div className="flex space-x-8">
+      <div className="grid grid-cols-3 md:flex lg:flex space-x-8">
         <Image src={react} className="h-16 w-16" />
         <Image src={py} className="h-16 w-16" />
         <Image src={ang} className="h-16 w-16" />
@@ -38,7 +38,7 @@ const Tech = () => {
         <Image src={tsxc} className="h-16 w-16" />
         <Image src={rust} className="h-16 w-16" />
       </div>
-      <div className="flex  space-x-8 justify-center items-center">
+      <div className="grid grid-cols-3 md:flex lg:flex space-x-8 justify-center items-center">
         <Image src={sql} className="h-16 w-16" />
         <Image src={psql} className="h-16 w-16" />
         <Image src={mgdb} className="h-16 w-16" />
@@ -46,13 +46,13 @@ const Tech = () => {
         <Image src={redis} className="h-16 w-16" />
         <Image src={firebase} className="h-16 w-16" />
       </div>
-      <div className="flex  space-x-8 justify-center items-center">
+      <div className="grid grid-cols-4 md:flex lg:flex space-x-8 justify-center items-center">
         <Image src={node} className="h-16 w-16" />
         <Image src={vue} className="h-16 w-16" />
         <Image src={tf} className="h-16 w-16" />
         <Image src={btc} className="h-16 w-16" />
       </div>
-      <div className="flex  space-x-8 justify-center items-center">
+      <div className="grid grid-cols-3 md:flex lg:flex space-x-8 justify-center items-center">
         <Image src={wordpress} className="h-16 w-16" />
         <Image src={git} className="h-16 w-16" />
         <Image src={dart} className="h-16 w-16" />
