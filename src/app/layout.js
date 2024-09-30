@@ -5,6 +5,8 @@ import Header from "./(user)/components/header";
 import AnimatedCursor from "react-animated-cursor";
 import { usePathname } from "next/navigation";
 import React from "react";
+import { FloatingDock } from "@/components/ui/floating-dock";
+import { FloatingDockDemo } from "@/components/ui/floating-nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +58,7 @@ export default function RootLayout({ children }) {
           <>
             <Header />
             {children}
+            <FloatingDockDemo/>
           </>
         )}
       </body>
